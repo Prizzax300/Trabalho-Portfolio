@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Azambujo | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background" aria-hidden="true">
+        <div class="grid"></div>
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div id="particles"></div>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <a href="#inicio" class="logo">BEM VINDO<span>!</span></a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content reveal">
+                <p class="intro">Olá, eu sou</p>
+                <h1>Gabriel<br><span>Azambujo</span></h1>
+                <h2>Estudante de <span class="typing"></span><span class="cursor">|</span></h2>
+                <p class="hero-description">
+                    Interessado em desenvolvimento de software,
+                    backend, hardware e tecnologia.
+                </p>
+                <div class="buttons">
+                    <a href="#projetos" class="button">Ver projetos <span>→</span></a>
+                    <a href="#contato" class="button secondary">Entre em contato</a>
+                </div>
+            </div>
+            <a href="#sobre" class="scroll-indicator" aria-label="Rolar para Sobre">
+                <span></span> Scroll 🔽
+            </a>
+        </section>
+
+        <section id="sobre" class="section">
+            <div class="section-heading reveal">
+                <span class="section-number">01</span>
+                <h2 class="section-title">Sobre mim</h2>
+            </div>
+            <div class="about reveal">
+                <div class="about-line"></div>
+                <div class="about-text">
+                    <p>Sou estudante de Desenvolvimento Full Stack, atualmente focado em aprimorar minhas habilidades em programação e desenvolvimento de sistemas.
+
+                      Tenho interesse principalmente em Java, desenvolvimento backend, bancos de dados e desenvolvimento web, além de gostar bastante da área de hardware e manutenção de computadores.
+
+                    Gosto de aprender na prática, criando projetos e buscando entender como as tecnologias funcionam por trás deles. Estou constantemente estudando e evoluindo minhas habilidades para transformar ideias em soluções funcionais.
+
+                    Atualmente, meu objetivo é continuar adquirindo experiência, desenvolver projetos cada vez mais completos e crescer profissionalmente na área de tecnologia.</p>
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="about-card">
+                    <span class="card-symbol">&lt;/&gt;</span>
+                    <strong>Foco Atual</strong>
+                    <span>Java & Backend.</span>
+                    <span>Desenvolvimento Web.</span>
+                    <span>Hardware & Ti</span>
+                    <span>Banco de Dados.</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="section">
+            <div class="section-heading reveal">
+                <span class="section-number">02</span>
+                <h2 class="section-title">Habilidades</h2>
+            </div>
+            <div class="skills">
+                <article class="skill reveal"><div class="skill-icon">01</div><h3>Java</h3><p>Programação e desenvolvimento backend.</p><div class="skill-line"></div></article>
+                <article class="skill reveal"><div class="skill-icon">02</div><h3>HTML &amp; CSS</h3><p>Criação e estilização de páginas web.</p><div class="skill-line"></div></article>
+                <article class="skill reveal"><div class="skill-icon">03</div><h3>Git &amp; GitHub</h3><p>Versionamento e gerenciamento de projetos.</p><div class="skill-line"></div></article>
+                <article class="skill reveal"><div class="skill-icon">04</div><h3>PostgreSQL</h3><p>Banco de dados e consultas SQL.</p><div class="skill-line"></div></article>
+                <article class="skill reveal"><div class="skill-icon">05</div><h3>Hardware</h3><p>Montagem, manutenção e configuração de computadores.</p><div class="skill-line"></div></article>
+                <article class="skill reveal"><div class="skill-icon">06</div><h3>Suporte de TI</h3><p>Configuração e resolução de problemas em computadores.</p><div class="skill-line"></div></article>
+            </div>
+        </section>
+
+        <section id="projetos" class="section">
+            <div class="section-heading reveal">
+                <span class="section-number">03</span>
+                <h2 class="section-title">Projetos</h2>
+            </div>
+            <div class="projects">
+                <article class="project reveal">
+                    <div class="project-number">01</div>
+                    <div class="project-content">
+                        <p class="project-type">JAVA / BACKEND</p>
+                        <h3>Detector de Golpes Digitais</h3>
+                        <p>Sistema desenvolvido em Java para analisar mensagens e identificar possíveis sinais de golpes digitais.</p>
+                        <div class="tags"><span>Java</span><span>Backend</span><span>Scanner</span></div>
+                        <a href="https://github.com/Prizzax300/Trabalho-Tigrinho" class="project-link">Ver projeto <span>↗</span></a> 
+                    </div>
+                </article>
+                <article class="project reveal">
+                    <div class="project-number">02</div>
+                    <div class="project-content">
+                        <p class="project-type">WEB</p>
+                        <h3>Meu Portfólio</h3>
+                        <p>Página pessoal desenvolvida para apresentar meus projetos, habilidades e experiência.</p>
+                        <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                        <a href="https://github.com/Prizzax300/Meu-Portfólio" class="project-link">Ver projeto <span>↗</span></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contato" class="section contact">
+            <div class="section-heading reveal">
+                <span class="section-number">04</span>
+                <h2 class="section-title">Contato</h2>
+            </div>
+            <div class="contact-content reveal">
+                <p class="contact-big">Vamos conversar?</p>
+                <p>Quer entrar em contato comigo?</p>
+                <div class="contact-links">
+                    <a href="https://github.com/Prizzax300" target="_blank" rel="noopener noreferrer"><span>GitHub</span><strong>↗</strong></a>
+                    <a href="https://www.linkedin.com/in/gabriel-azambujo-toniasso-565137438/" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><strong>↗</strong></a>
+                    <a href="mailto:gabrieltoniasso@gmail.com"><span>E-mail</span><strong>↗</strong></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Gabriel Azambujo</p>
+        <p>Desenvolvido com HTML, CSS e JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
